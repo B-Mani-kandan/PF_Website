@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+.home-container {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 4rem 0;
+  position: relative;
+}
+
+.hero-text-left {
+  max-width: 40rem;
+  margin-top: 3.5rem;
+}
+
+.hero-heading {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1b222d;
+}
+
+.hero-text-right {
+  position: absolute;
+  top: 55%;
+  right: 180px;
+  font-size: 15px;
+  color: #374151;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  margin-top: -18%;
+}
+
+.container-image {
+  width: 700px;
+  z-index: 999;
+}
+
+.style-font {
+  font-family: "Lora", serif;
+  color: hsl(220, 48%, 28%);
+}
+.font-style {
+  font-family: "Lora", serif;
+}
+.group:hover .style-font {
+  color: white !important;
+}
