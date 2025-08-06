@@ -1,5 +1,4 @@
 import { PackageCheck, Send, Clock, Plane } from "lucide-react";
-import AirplaneSketch from "../../assets/HomeImages/AeroplaneSketch.png";
 const WhyOutports = () => {
   return (
     <>

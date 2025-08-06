@@ -30,7 +30,7 @@ const NavBar = () => {
           <Link to="/" className="nav__logo" onClick={closeMenu}>
             {/* <img src={Logo} alt="" />
             <img src={IATA} style={{ width: "80px" }} alt="" /> */}
-            <p className="Pfname">Professional Freight</p>
+            <p className="Pfname">Professional Freight Logistics</p>
           </Link>
           <div
             className={`nav__toggle ${showMenu ? "show-icon" : ""}`}
@@ -50,21 +50,19 @@ const NavBar = () => {
                 Home
               </Link>
             </li>
+            <li>
+              <Link to="/About-Us" className="nav__link" onClick={closeMenu}>
+                About Us
+              </Link>
+            </li>
             <Dropdown
-              title="Assistance"
+              title="Services"
               items={discoverItems}
               closeMenu={closeMenu}
             />
             <li>
-              <Link to="/OurStory" className="nav__link" onClick={closeMenu}>
-                Our Story
-              </Link>
-            </li>
-            <Dropdown title="Menu" items={companyItems} closeMenu={closeMenu} />
-
-            <li>
-              <Link to="/ContactUs" className="nav__link" onClick={closeMenu}>
-                Contact
+              <Link to="/Contact-Us" className="nav__link" onClick={closeMenu}>
+                Contact Us
               </Link>
             </li>
           </ul>
@@ -137,27 +135,10 @@ const Dropdown = ({ title, items, closeMenu }) => {
 const discoverItems = [
   {
     links: [
-      { href: "/Sea-Frieght", label: "Sea Freight" },
-      { href: "/Air-Frieght", label: "Air Freight" },
-      { href: "/WareHousing", label: "Warehousing" },
-      { href: "/Labelling", label: "Labelling" },
-      { href: "/DG-Shipping", label: "DG Shipping" },
-      { href: "/Customs-Clearence", label: "Customs Clearance" },
-    ],
-  },
-];
-
-const companyItems = [
-  {
-    links: [
-      { href: "/", label: "Home" },
-      { href: "/OurStory", label: "About us" },
-      { href: "/Sea-Frieght", label: "Sea Freight" },
-      { href: "/Air-Frieght", label: "Air Freight" },
-      { href: "/WareHousing", label: "Warehousing" },
-      { href: "/Labelling", label: "Labelling" },
-      { href: "/Custom-Clearence", label: "Customs Clearance" },
-      { href: "/ContactUs", label: "Contact Us" },
+      { href: "/Customs-Clearance", label: "Customs Clearance" },
+      { href: "/FTWZ-Operations", label: "FTWZ Operations" },
+      { href: "/WareHouse", label: "WareHouse" },
+      { href: "/Transportation", label: "Transportation" },
     ],
   },
 ];

@@ -3,3 +3,164 @@
 .home-heading {
   font-family: sans-serif;
 }
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.image:nth-child(2) {
+  margin-top: 30%;
+}
+.image:nth-child(3) {
+  margin-top: -60px;
+}
+
+.talented-people {
+  margin: 120px auto;
+  padding: 0 5%;
+}
+
+.text-container {
+  text-align: left;
+  margin-bottom: 2%;
+  position: relative;
+  width: 45%;
+  left: 2%;
+}
+
+.text-container h1 {
+  top: 10px;
+  position: absolute;
+  line-height: 1.4;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  position: absolute;
+  top: 100px;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.DGimage-card:nth-child(1) {
+  margin-top: 18%;
+}
+
+.DGimage-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.DGimage-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1200px) {
+  .text-container {
+    width: 55%;
+  }
+
+  .text-container h1 {
+    font-size: 28px;
+  }
+
+  .text-container p {
+    font-size: 15px;
+  }
+
+  .DGimage-container {
+    gap: 30px;
+  }
+
+  .DGimage-card:nth-child(1) {
+    margin-top: 12%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .text-container {
+    width: 65%;
+  }
+
+  .text-container h1 {
+    font-size: 26px;
+  }
+
+  .text-container p {
+    font-size: 14px;
+  }
+
+  .DGimage-container {
+    gap: 20px;
+  }
+
+  .DGimage-card:nth-child(1) {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .text-container {
+    width: 75%;
+    left: 0;
+  }
+
+  .text-container h1 {
+    font-size: 24px;
+  }
+
+  .text-container p {
+    font-size: 13px;
+    top: 90px;
+  }
+
+  .DGimage-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .DGimage-card:nth-child(1) {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .talented-people {
+    margin: 80px auto;
+  }
+  .text-container {
+    width: 90%;
+  }
+
+  .text-container h1 {
+    font-size: 22px;
+  }
+
+  .text-container p {
+    font-size: 12px;
+    top: 80px;
+  }
+
+  .DGimage-container {
+    gap: 5px;
+  }
+
+  .DGimage-card:nth-child(1) {
+    margin-top: 45%;
+  }
+}

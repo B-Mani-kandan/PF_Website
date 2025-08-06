@@ -1,7 +1,7 @@
 import globeImage from "../../assets/HomeImages/GlobeImg.png";
 const HomeGlobalReach = () => {
   return (
-    <div className="relative mt-6 mb-6 w-full max-w-7xl mx-auto">
+    <div className="relative mt-6 mb-6 w-full mx-auto">
       <img src={globeImage} alt="Globe" className="w-full object-contain" />
       <h2 className="absolute font-style top-16 left-18 text-3xl md:text-4xl font-semibold text-white z-20">
         Global Reach

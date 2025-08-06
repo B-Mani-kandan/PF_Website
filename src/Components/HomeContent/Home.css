@@ -42,16 +42,26 @@
 
 .container-image {
   width: 700px;
-  z-index: 999;
+  /* z-index: 999; */
 }
 
 .style-font {
   font-family: "Lora", serif;
   color: hsl(220, 48%, 28%);
 }
+
+.style-fonts {
+  font-family: "Lora", serif;
+  color: hsl(220, 48%, 28%);
+}
 .font-style {
   font-family: "Lora", serif;
 }
+
+.style-fonts:hover {
+  color: white !important;
+}
+
 .group:hover .style-font {
   color: white !important;
 }

@@ -1,16 +1,24 @@
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
+import ContOpen from "../../assets/HomeImages/ContBoxOpen.png";
 import "../Footer/Footer.css";
 
 const Footer = () => {
   return (
     <>
+      <div className="relative">
+        <img
+          src={ContOpen}
+          alt="Container Sketch"
+          className="absolute -bottom-40 left-0 w-[400px] pointer-events-none"
+        />
+      </div>
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-sections">
             <div className="footer-group">
               <h3 className="footer-title">Quick Link</h3>
-              <RouterLink to="/Contact-Us" className="footer-link">
+              <RouterLink to="/" className="footer-link">
                 Home
               </RouterLink>
               <ScrollLink
@@ -23,8 +31,8 @@ const Footer = () => {
               >
                 About Us
               </ScrollLink>
-              <RouterLink to="/Product-Service" className="footer-link">
-                Product & Services
+              <RouterLink to="/" className="footer-link">
+                Services
               </RouterLink>
               <RouterLink to="/Contact-Us" className="footer-link">
                 Contact Us

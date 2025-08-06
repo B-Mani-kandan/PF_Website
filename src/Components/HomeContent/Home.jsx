@@ -9,7 +9,6 @@ import moreContainerSketch from "../../assets/HomeImages/moreContainerSketch.png
 import Aeroplane from "../../assets/HomeImages/AeroplaneSketch.png";
 import Ship from "../../assets/HomeImages/ContShipSketch.png";
 import HangCont from "../../assets/HomeImages/HangingContSketch.png";
-import ContOpen from "../../assets/HomeImages/ContBoxOpen.png";
 import HomeAbout from "./HomeAbout";
 import HomeGlobalReach from "./HomeGlobalReach";
 
@@ -63,20 +62,13 @@ const Home = () => {
         <img
           src={HangCont}
           alt="Container Sketch"
-          className="absolute bottom-8 left-0 w-[250px] pointer-events-none"
+          className="absolute bottom-0 left-0 w-[250px] pointer-events-none"
         />
       </div>
       <Features />
       <HomeGlobalReach />
       <HomeSolution />
       <HomeWarhouse />
-      <div className="relative">
-        <img
-          src={ContOpen}
-          alt="Container Sketch"
-          className="absolute -bottom-35 left-0 w-[350px] pointer-events-none"
-        />
-      </div>
     </>
   );
 };
