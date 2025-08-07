@@ -163,7 +163,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-      <div className="map-wrapper mb-30">
+      <div className="map-wrapper">
         <iframe
           title="map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.696318232646!2d-88.29265828460107!3d42.055024879208534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880faa264a8f57e3%3A0x12f04e4b3e3b4305!2s1425%20N%20McLean%20Blvd%2C%20Elgin%2C%20IL%2060123%2C%20USA!5e0!3m2!1sen!2sin!4v1652817585025!5m2!1sen!2sin"

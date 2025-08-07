@@ -7,6 +7,7 @@ import WareHouse from "./Components/Service/WareHouse";
 import Transportation from "./Components/Service/Transport/Transportation";
 import SeaFreight from "./Components/Service/SeaFreight/SeaFreight";
 import AirFreight from "./Components/Service/AirFreight/AirFreight";
+import AboutUs from "./Components/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/About-Us" element={<AboutUs />} />
           <Route exact path="/Contact-Us" element={<ContactUs />} />
           <Route exact path="/WareHouse" element={<WareHouse />} />
           <Route exact path="/Transportation" element={<Transportation />} />

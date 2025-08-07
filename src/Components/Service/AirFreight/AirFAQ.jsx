@@ -43,7 +43,7 @@ const AirFAQ = () => {
 
   return (
     <>
-      <section className="max-w-3xl mx-auto px-4 py-16 text-center">
+      <section className="max-w-3xl mx-auto px-4 py-16 mt-10 text-center">
         <h2 className="text-3xl font-serif font-semibold mb-5 style-font">
           Frequently asked questions
         </h2>
@@ -51,7 +51,7 @@ const AirFAQ = () => {
           Have questions? We're here to help.
         </p>
 
-        <div className="text-left border-t border-gray-200 mb-40">
+        <div className="text-left border-t border-gray-200 ">
           {faqs.map((faq, index) => (
             <div key={index} className="border-b border-gray-200">
               <button

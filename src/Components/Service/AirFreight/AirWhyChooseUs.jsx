@@ -1,8 +1,8 @@
-import { Truck, Handshake, MapPinned, Globe } from "lucide-react";
+import { Plane, LockKeyhole, MapPinned, Globe } from "lucide-react";
 
 const AirWhyChooseUs = () => {
   return (
-    <section className="py-20 px-6 md:px-16 mt-10 bg-white">
+    <section className="py-20 px-6 md:px-16 mt-5 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="mb-4">
           <p className="text-sm text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-4 font-medium">
@@ -16,7 +16,7 @@ const AirWhyChooseUs = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-gray-100 p-6 rounded-xl hover:[background-color:#253c6a] transition-all duration-300 group">
             <div className="w-16 h-16 flex items-center justify-center rounded-full border border-gray-300 bg-gray-100 mb-5">
-              <Truck className="w-6 h-6 text-gray-700 " />
+              <Plane className="w-6 h-6 text-gray-700 " />
             </div>
             <h3 className="text-lg font-bold mb-2 style-font text-gray-900 group-hover:text-white">
               Fast Transit Time
@@ -30,15 +30,17 @@ const AirWhyChooseUs = () => {
           </div>
           <div className="bg-gray-100 p-6 rounded-xl hover:[background-color:#253c6a] transition-all duration-300 group">
             <div className="w-16 h-16 flex items-center justify-center rounded-full border border-gray-300 bg-gray-100 mb-5">
-              <Handshake className="w-6 h-6 text-gray-700 " />
+              <LockKeyhole className="w-6 h-6 text-gray-700 " />
             </div>
             <h3 className="text-lg font-bold mb-2 style-font text-gray-900 group-hover:text-white">
-              Competitive pricing
+              Secure Handling
             </h3>
             <p className="text-sm text-gray-600 group-hover:text-white text-justify">
-              Get transparent, affordable shipping rates with no hidden fees.
-              Our global partnerships help you save without compromising service
-              quality.
+              Your cargo is managed with the highest safety standards throughout
+              the shipping process. From specialized packaging to careful
+              loading and unloading, we ensure goods are protected at every
+              stage. Security checks and tracking further guarantee peace of
+              mind.
             </p>
           </div>
           <div className="bg-gray-100 p-6 rounded-xl md:row-span-2 hover:[background-color:#253c6a] transition-all duration-300 group">

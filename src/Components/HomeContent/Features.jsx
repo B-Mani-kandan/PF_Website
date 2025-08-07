@@ -2,13 +2,13 @@ import ContainerSketch from "../../assets/HomeImages/SketchContainer.png";
 
 const Features = () => {
   return (
-    <section className=" py-20 px-6 md:px-10 font-sans">
+    <section className=" py-20 px-6 md:px-10 font-sans mt-15">
       <div className="max-w-7xl border-t  border-b border-[#e5dcd3] mx-auto flex flex-col md:flex-row">
         <div className="flex flex-col border-r  border-[#e5dcd3] w-full md:w-1/2">
           <div className="  border-b border-[#e5dcd3] p-6 md:p-10">
-            <div className="text-xs inline-block bg-[#f2e9e1] text-[#7d5a45] px-4 py-1 rounded-full mb-4">
-              Working Process
-            </div>
+            <p className="text-sm text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-7 font-medium">
+              WORKING PROCESS
+            </p>
             <h2 className="text-2xl font-extrabold mb-2 style-font">
               Safe transport
             </h2>

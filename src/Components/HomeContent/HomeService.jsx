@@ -44,9 +44,9 @@ const HomeService = () => {
   return (
     <div className="bg-white py-18 px-6 md:px-20 md:flex justify-between gap-8">
       <div className="max-w-md mt-18">
-        <div className="text-xs inline-block bg-[#f2e9e1] text-[#7d5a45] px-4 py-1 rounded-full mb-5">
-          Our Services
-        </div>
+        <p className="text-sm text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-7 font-medium">
+          OUR SERVICES
+        </p>
         <h2 className="text-4xl font-bold mb-4 leading-tight style-font">
           Built to Help You <br />
           <span className="style-font">Save Money</span>
@@ -60,7 +60,7 @@ const HomeService = () => {
           and combined with experience through integrated supply chain
           solutions!
         </p>
-        <button className="bg-red-600 text-white px-6 py-2 rounded-md">
+        <button className="mt-4 px-6 py-2 border border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white transition rounded">
           See All Services
         </button>
       </div>

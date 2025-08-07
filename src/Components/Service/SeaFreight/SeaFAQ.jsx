@@ -51,7 +51,7 @@ const SeaFAQ = () => {
           Have questions? We're here to help.
         </p>
 
-        <div className="text-left border-t border-gray-200 mb-40">
+        <div className="text-left border-t border-gray-200 ">
           {faqs.map((faq, index) => (
             <div key={index} className="border-b border-gray-200">
               <button

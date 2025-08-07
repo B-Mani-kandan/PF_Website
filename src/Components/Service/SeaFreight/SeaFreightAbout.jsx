@@ -31,7 +31,6 @@ const AboutUsSection = () => {
             Built on <span className="text-orange-500">Values</span>,<br />
             Anchored for excellence
           </h2>
-
           <div className="mt-10 space-y-8">
             {content.map((item, index) => (
               <div

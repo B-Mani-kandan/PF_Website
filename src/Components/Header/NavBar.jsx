@@ -57,6 +57,7 @@ const NavBar = () => {
             </li>
             <Dropdown
               title="Services"
+              className="style-font"
               items={discoverItems}
               closeMenu={closeMenu}
             />
@@ -135,8 +136,10 @@ const Dropdown = ({ title, items, closeMenu }) => {
 const discoverItems = [
   {
     links: [
-      { href: "/Customs-Clearance", label: "Customs Clearance" },
       { href: "/FTWZ-Operations", label: "FTWZ Operations" },
+      { href: "/Customs-Clearance", label: "Customs Clearance" },
+      { href: "/Ocean-Freight-Services", label: "Sea Freight" },
+      { href: "/Air-Freight-Services", label: "Air Freight" },
       { href: "/WareHouse", label: "WareHouse" },
       { href: "/Transportation", label: "Transportation" },
     ],

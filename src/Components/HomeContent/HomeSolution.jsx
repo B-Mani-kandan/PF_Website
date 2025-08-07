@@ -5,9 +5,9 @@ const HomeSolution = () => {
     <div className="py-20 px-6 md:px-16 font-poppins">
       <div className="flex flex-col md:flex-row md:justify-between items-start mb-12">
         <div>
-          <div className="text-xs inline-block bg-[#f2e9e1] text-[#7d5a45] px-4 py-1 rounded-full mb-4">
-            Solutions
-          </div>
+          <p className="text-sm text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-7 font-medium">
+            SOLUTIONS
+          </p>
           <h2 className="text-3xl md:text-4xl font-semibold style-font">
             Smart solutions to simplify <br /> your supply chain
           </h2>
