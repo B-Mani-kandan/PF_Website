@@ -34,7 +34,7 @@ const timelineData = [
 
 const AboutDetailSection = () => {
   return (
-    <section className="bg-gray-100 lg:px-16 px-6 py-16 md:px-20 mb-40">
+    <section className="bg-gray-100 lg:px-16 px-6 py-16 md:px-20 mb-30">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16">
         <div className="space-y-6 sticky top-40 h-fit self-start">
           <p className="text-sm text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-4 font-medium">
@@ -57,7 +57,7 @@ const AboutDetailSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.4 }}
               transition={{ duration: 0.5 }}
-              className="px-8 py-6 bg-white border-t-4 border-green-800 shadow-xl rounded-xl max-w-xl w-full"
+              className="px-8 py-6 bg-white border-t-4 border-red-600 shadow-xl rounded-xl max-w-xl w-full"
             >
               <h3 className="text-2xl font-bold">{item.year}</h3>
               {item.title && (

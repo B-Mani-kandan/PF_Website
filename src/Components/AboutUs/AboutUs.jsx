@@ -3,6 +3,7 @@ import AboutContent from "./AboutContent";
 import AboutDetailSection from "./AboutDetailSection";
 import AboutHeroSection from "./AboutHeroSection";
 import AboutLogistics from "./AboutLogistics";
+import AboutOurTeam from "./AboutOurTeam";
 
 const AboutUs = () => {
   return (
@@ -12,6 +13,7 @@ const AboutUs = () => {
       <AboutLogistics />
       <AboutDetailSection />
       <AboutUsGrid />
+      <AboutOurTeam />
     </div>
   );
 };
