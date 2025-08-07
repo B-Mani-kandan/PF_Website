@@ -57,7 +57,6 @@ const NavBar = () => {
             </li>
             <Dropdown
               title="Services"
-              className="style-font"
               items={discoverItems}
               closeMenu={closeMenu}
             />
@@ -114,7 +113,7 @@ const Dropdown = ({ title, items, closeMenu }) => {
             <div className="dropdown__group" key={index}>
               <ul className="dropdown__list">
                 {group.links.map((link, idx) => (
-                  <li key={idx}>
+                  <li key={idx} className="dropdown_li">
                     <Link
                       to={link.href}
                       className="dropdown__link"

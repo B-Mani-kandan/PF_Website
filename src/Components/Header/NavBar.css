@@ -3,7 +3,7 @@
 :root {
   --header-height: 3.5rem;
   --first-color: hsl(220, 68%, 54%);
-  --first-color-lighten: hsl(220, 68%, 97%);
+  --first-color-lighten: hsl(219, 71%, 95%);
   --title-color: #253c6a;
   --text-color: hsl(220, 12%, 45%);
   --body-color: #ffffff;
@@ -212,6 +212,7 @@ a {
 }
 
 .dropdown__link {
+  font-family: "Lora", serif;
   font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
   color: var(--text-color);
@@ -222,10 +223,9 @@ a {
   align-items: start;
 }
 
-.dropdown__link:hover {
+.dropdown_li:hover {
   color: var(--first-color);
   background-color: var(--first-color-lighten); /* Adjust as needed */
-  border-radius: 5px; /* Optional: Adds rounded corners */
 }
 
 .rotate {
@@ -269,7 +269,7 @@ a {
   }
   .dropdown__container {
     position: absolute;
-    width: 207px;
+    width: 220px;
     line-height: 1.6;
     top: 100%;
     left: -40px;
