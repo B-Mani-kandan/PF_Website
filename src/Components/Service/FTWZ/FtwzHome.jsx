@@ -17,7 +17,7 @@ const FtwzHome = () => {
             import-export businesses.
           </p>
           <div className="flex gap-4">
-            <button className="border border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-600 hover:text-white transition">
+            <button className="border border-red-600 text-red-600 px-5 py-2 rounded hover:bg-red-600 hover:text-white transition">
               Get Started
             </button>
           </div>

@@ -11,6 +11,7 @@ import Ship from "../../assets/HomeImages/ContShipSketch.png";
 import HangCont from "../../assets/HomeImages/HangingContSketch.png";
 import HomeAbout from "./HomeAbout";
 import HomeGlobalReach from "./HomeGlobalReach";
+import HomeContact from "./HomeContact";
 
 const Home = () => {
   return (

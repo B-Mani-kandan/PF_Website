@@ -3,43 +3,43 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    question: "What is an FTWZ (Free Trade Warehousing Zone)?",
+    question: "What is Customs Clearance?",
     answer:
-      "An FTWZ is a designated zone offering warehousing and logistics services with duty-free benefits for import and export operations. It simplifies global trade by providing a secure and efficient ecosystem.",
+      "Customs clearance is the process of preparing and submitting documentation required to facilitate imports or exports into or out of a country. It ensures that shipments comply with local laws and regulations.",
   },
   {
-    question: "What are the key benefits of using an FTWZ?",
+    question: "Why is Customs Clearance important?",
     answer:
-      "FTWZs offer duty deferment, tax exemptions, faster cargo handling, streamlined customs clearance, and value-added services like labeling, kitting, and repackaging.",
+      "It ensures that your goods pass through customs smoothly, avoiding delays, penalties, or confiscation. Proper clearance also ensures you pay the correct duties and taxes.",
   },
   {
-    question: "Can goods be stored in an FTWZ for a long duration?",
+    question: "What documents are required for Customs Clearance?",
     answer:
-      "Yes, goods can be stored in an FTWZ for up to 5 years without attracting customs duties, making it ideal for long-term inventory management.",
+      "Common documents include the commercial invoice, packing list, bill of lading or airway bill, import/export license, and HS code classification. Additional documents may be required based on the shipment.",
   },
   {
-    question: "Is it possible to re-export goods from an FTWZ?",
+    question: "How long does Customs Clearance take?",
     answer:
-      "Absolutely. Goods stored in FTWZs can be re-exported without paying import duties, making it a strategic hub for global distribution.",
+      "Clearance time can vary depending on the port, shipment type, and completeness of documentation. With accurate paperwork, clearance can often be completed within 1–2 working days.",
   },
   {
-    question: "Who can use FTWZ facilities?",
+    question: "Can you handle both Import and Export Customs Clearance?",
     answer:
-      "Manufacturers, traders, exporters, importers, e-commerce companies, and logistics providers can all benefit from FTWZ services.",
+      "Yes, we provide comprehensive clearance services for both imports and exports, covering sea, air, and land shipments.",
   },
   {
-    question: "Are there any compliance requirements to use an FTWZ?",
+    question: "Do you offer Duty & Tax Consultancy?",
     answer:
-      "Yes, users must adhere to customs regulations and FTWZ-specific guidelines, including documentation, inventory tracking, and reporting requirements.",
+      "Yes, we guide you on applicable customs duties, GST, exemptions, and ways to minimize costs legally.",
   },
   {
-    question: "How does FTWZ help in reducing logistics costs?",
+    question: "How can I ensure faster Customs Clearance?",
     answer:
-      "By allowing consolidation, duty-free storage, and efficient customs processes, FTWZs reduce overall supply chain and inventory costs.",
+      "Provide accurate and complete documentation, classify goods correctly using HS codes, and work with an experienced customs broker to avoid delays.",
   },
 ];
 
-const FtwzFAQ = () => {
+const CustomsFAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleAccordion = (index) => {
@@ -50,7 +50,7 @@ const FtwzFAQ = () => {
     <section className="bg-white px-6 py-16 md:px-20 flex flex-col lg:flex-row gap-10">
       <div className="lg:w-1/2">
         <p className="text-sm  text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-4 font-medium">
-          FTWZ FAQ
+          CUSTOMS FAQ
         </p>
         <h2 className="text-5xl font-bold mb-4 leading-tight">
           You’ve Got
@@ -60,8 +60,9 @@ const FtwzFAQ = () => {
           Got Answers
         </h2>
         <p className="text-gray-600 mb-6">
-          Explore clear answers to common queries and understand how Free Trade
-          Warehousing Zones can benefit your business.
+          Explore clear answers to common queries and understand how Customs
+          Clearance ensures smooth, compliant, and hassle-free import and export
+          operations for your business.
         </p>
       </div>
       <div className="lg:w-1/2  space-y-6">
@@ -95,4 +96,4 @@ const FtwzFAQ = () => {
   );
 };
 
-export default FtwzFAQ;
+export default CustomsFAQ;

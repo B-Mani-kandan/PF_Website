@@ -10,6 +10,8 @@ import AirFreight from "./Components/Service/AirFreight/AirFreight";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import FTWZ from "./Components/Service/FTWZ/FTWZ";
 import CustomClearence from "./Components/Service/Customs/CustomClearence";
+import HomeDesc from "./Components/HomeContent/HomeDesc";
+import HomeContact from "./Components/HomeContent/HomeContact";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
             element={<CustomClearence />}
           />
         </Routes>
+        <HomeContact />
+        <HomeDesc />
         <Footer />
       </Router>
     </>

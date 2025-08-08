@@ -30,7 +30,7 @@ const NavBar = () => {
           <Link to="/" className="nav__logo" onClick={closeMenu}>
             {/* <img src={Logo} alt="" />
             <img src={IATA} style={{ width: "80px" }} alt="" /> */}
-            {/* <p className="Pfname">Professional Freight Logistics</p> */}
+            <p className="Pfname">Professional Freight Logistics</p>
           </Link>
           <div
             className={`nav__toggle ${showMenu ? "show-icon" : ""}`}
