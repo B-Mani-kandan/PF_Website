@@ -9,6 +9,7 @@ import SeaFreight from "./Components/Service/SeaFreight/SeaFreight";
 import AirFreight from "./Components/Service/AirFreight/AirFreight";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import FTWZ from "./Components/Service/FTWZ/FTWZ";
+import CustomClearence from "./Components/Service/Customs/CustomClearence";
 
 function App() {
   return (
@@ -28,6 +29,11 @@ function App() {
           />
           <Route exact path="/Air-Freight-Services" element={<AirFreight />} />
           <Route exact path="/FTWZ-Operations" element={<FTWZ />} />
+          <Route
+            exact
+            path="/Customs-Clearance"
+            element={<CustomClearence />}
+          />
         </Routes>
         <Footer />
       </Router>

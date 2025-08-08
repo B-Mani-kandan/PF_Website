@@ -1,4 +1,5 @@
 import FtwzDifference from "./FtwzDifference";
+import FtwzFAQ from "./FtwzFAQ";
 import FtwzHome from "./FtwzHome";
 import FtwzIntro from "./FtwzIntro";
 import FtwzValues from "./FtwzValues";
@@ -12,6 +13,7 @@ const FTWZ = () => {
       <FtwzValues />
       <FtwzDifference />
       <FtwzWhyChooseUs />
+      <FtwzFAQ />
     </div>
   );
 };

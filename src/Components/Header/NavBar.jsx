@@ -25,12 +25,12 @@ const NavBar = () => {
 
   return (
     <header className="header">
-      <nav className="nav container">
+      <nav className="nav containers">
         <div className="nav__data">
           <Link to="/" className="nav__logo" onClick={closeMenu}>
             {/* <img src={Logo} alt="" />
             <img src={IATA} style={{ width: "80px" }} alt="" /> */}
-            <p className="Pfname">Professional Freight Logistics</p>
+            {/* <p className="Pfname">Professional Freight Logistics</p> */}
           </Link>
           <div
             className={`nav__toggle ${showMenu ? "show-icon" : ""}`}
@@ -137,9 +137,9 @@ const discoverItems = [
     links: [
       { href: "/FTWZ-Operations", label: "FTWZ Operations" },
       { href: "/Customs-Clearance", label: "Customs Clearance" },
+      { href: "/WareHouse", label: "WareHousing" },
       { href: "/Ocean-Freight-Services", label: "Sea Freight" },
       { href: "/Air-Freight-Services", label: "Air Freight" },
-      { href: "/WareHouse", label: "WareHouse" },
       { href: "/Transportation", label: "Transportation" },
     ],
   },

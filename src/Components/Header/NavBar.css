@@ -40,7 +40,7 @@ a {
   font-weight: 800;
 }
 
-.container {
+.containers {
   max-width: 1120px;
   margin-inline: 1.5rem;
 }
@@ -310,7 +310,7 @@ a {
 }
 
 @media screen and (min-width: 1152px) {
-  .container {
+  .containers {
     margin-inline: auto;
   }
 }
