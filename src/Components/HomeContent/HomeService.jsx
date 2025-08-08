@@ -23,7 +23,7 @@ const services = [
     icon: <Truck className="w-6 h-6 group-hover:text-white text-[#253c6a]" />,
     title: "Road Freight Services",
     description:
-      "We provides with the types of basic conditions international sea transportation is implemented by our partners' the largest ocean carriers.",
+      "We provide reliable road freight services, ensuring safe, timely, and cost-effective transportation of goods through our trusted logistics network.",
     bg: "bg-white text-black",
     hover: "hover:rotate-2 hover:scale-105",
     Link: "/Road-Freight-Services",
@@ -32,17 +32,17 @@ const services = [
     icon: (
       <TrainFront className="w-6 h-6 group-hover:text-white text-[#253c6a]" />
     ),
-    title: "Train Freight Services",
+    title: "WareHousing Services",
     description:
-      "We provides with the types of basic conditions international sea transportation is implemented by our partners' the largest ocean carriers.",
+      "We provide warehousing services under standard conditions, ensuring secure storage and efficient handling of goods in collaboration with trusted partners..",
     bg: "bg-white text-black",
     hover: "hover:-rotate-2 hover:scale-105",
-    Link: "/Train-Freight-Services",
+    Link: "/WareHouse",
   },
 ];
 const HomeService = () => {
   return (
-    <div className="bg-white py-18 px-6 md:px-20 md:flex justify-between gap-8">
+    <div className="bg-white py-18 px-6 md:px-20 md:flex justify-between gap-8 sevices">
       <div className="max-w-md mt-18">
         <p className="text-sm text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-7 font-medium">
           OUR SERVICES
@@ -60,11 +60,7 @@ const HomeService = () => {
           and combined with experience through integrated supply chain
           solutions!
         </p>
-        <button className="mt-4 px-6 py-2 border border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white transition rounded">
-          See All Services
-        </button>
       </div>
-
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 md:mt-0">
         {services.map((service, index) => (
           <Link to={service.Link} key={index}>

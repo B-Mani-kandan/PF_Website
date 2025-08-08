@@ -21,49 +21,42 @@ const Footer = () => {
               <RouterLink to="/" className="footer-link">
                 Home
               </RouterLink>
+              <RouterLink to="/About-Us" className="footer-link">
+                About Us
+              </RouterLink>
               <ScrollLink
-                to="About-us"
+                to="sevices"
                 smooth={true}
-                offset={-100}
+                offset={-70}
                 duration={500}
                 href="#About"
                 className="footer-link"
               >
-                About Us
-              </ScrollLink>
-              <RouterLink to="/" className="footer-link">
                 Services
-              </RouterLink>
+              </ScrollLink>
               <RouterLink to="/Contact-Us" className="footer-link">
                 Contact Us
               </RouterLink>
             </div>
-
             <div className="footer-group">
-              <h3 className="footer-title">Product & Services</h3>
-              <RouterLink to="/SMT-Fixtures" className="footer-link">
-                Air Freight
+              <h3 className="footer-title">Services</h3>
+              <RouterLink to="/FTWZ-Operations" className="footer-link">
+                Ftwz Operations
               </RouterLink>
-              <RouterLink to="/FCT-Fixtures" className="footer-link">
+              <RouterLink to="/Customs-Clearance" className="footer-link">
+                Customs Clearance
+              </RouterLink>
+              <RouterLink to="/WareHouse" className="footer-link">
+                Warehousing
+              </RouterLink>
+              <RouterLink to="/Ocean-Freight-Services" className="footer-link">
                 Sea Freight
               </RouterLink>
-              <RouterLink to="/TesterAssembly" className="footer-link">
-                Warhousing
+              <RouterLink to="/Air-Freight-Services" className="footer-link">
+                Air Freight
               </RouterLink>
-              <RouterLink to="/TesterAssembly" className="footer-link">
-                DG Shipping
-              </RouterLink>
-              <RouterLink to="/TesterAssembly" className="footer-link">
-                Door to Door Delivery
-              </RouterLink>
-              <RouterLink to="/TesterAssembly" className="footer-link">
-                Marine Surveyors
-              </RouterLink>
-              <RouterLink to="/TesterAssembly" className="footer-link">
-                Transportation
-              </RouterLink>
-              <RouterLink to="/TesterAssembly" className="footer-link">
-                International Freight Forwarding
+              <RouterLink to="/Road-Freight-Services" className="footer-link">
+                Road Freight
               </RouterLink>
             </div>
             <div className="footer-group">

@@ -1,5 +1,5 @@
 import HeroImage from "../../assets/About/HeroImage.webp";
-
+import { Link } from "react-scroll";
 const AboutHeroSection = () => {
   return (
     <section className="flex flex-col md:flex-row items-center bg-[#f5f5f5] min-h-screen mb-40">
@@ -16,9 +16,16 @@ const AboutHeroSection = () => {
           economic growth and innovation.
         </p>
         <div className="flex gap-4">
-          <button className="border border-green-900 text-green-900 px-6 py-3 rounded hover:bg-green-100 transition">
+          <Link
+            to="AboutContent"
+            smooth={true}
+            offset={-100}
+            duration={2000}
+            href="#AboutContent"
+            className="border border-red-600 text-red-600 px-5 py-2 rounded hover:bg-red-600 hover:text-white transition"
+          >
             Get Started
-          </button>
+          </Link>
         </div>
       </div>
       <div className="w-full md:w-1/2 h-[500px] md:h-screen overflow-hidden">

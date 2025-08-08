@@ -5,6 +5,7 @@ import CargoImage from "../../assets/Service/WareHouse/WareHouseVechicle.png";
 import LoadingTruck from "../../assets/Service/WareHouse/TruckPFL.png";
 import WareHouseCard1 from "../../assets/Service/WareHouse/WareHouseCard1.jpg";
 import WareHousecard3 from "../../assets/Service/WareHouse/WareHouseCard3.jpg";
+import { Link } from "react-scroll";
 const WareHouse = () => {
   return (
     <>
@@ -21,23 +22,24 @@ const WareHouse = () => {
             dynamic warehousing solutions ensure efficiency, security, and
             real-time visibility.{" "}
           </p>
-          <p className="text-gray-600 text-lg mb-6">
-            With strategically located facilities, advanced inventory tracking,
-            and seamless integration with your supply chain, we help you reduce
-            costs, improve distribution speed, and respond quickly to changing
-            market demands.
-          </p>
           <div className="flex gap-4">
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
-              Get started
-            </button>
+            <Link
+              to="bondWarehouse"
+              smooth={true}
+              offset={-40}
+              duration={2000}
+              href="#explore"
+              className="border border-red-600 text-red-600 px-5 py-2 rounded hover:bg-red-600 hover:text-white transition"
+            >
+              Explore WareHousing
+            </Link>
           </div>
         </div>
         <div className="overflow-hidden">
           <img src={WareHouseImg} alt="warehouseimage" />
         </div>
       </div>
-      <div className="flex flex-col py-20 px-6 md:px-16 md:flex-row items-center justify-between p-8 bg-white min-h-screen">
+      <div className="flex flex-col py-20 px-6 md:px-16 md:flex-row items-center justify-between p-8 bg-white min-h-screen bondWarehouse">
         <div className="md:w-1/2 mb-8 md:mb-0 md:mr-12">
           <img
             src={WareHouseLoading}
@@ -212,7 +214,7 @@ const WareHouse = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-screen flex flex-col items-center justify-start px-4 py-10">
+      <div className="min-h-screen flex flex-col items-center justify-start px-4 py-10 mb-20">
         <div className="text-center max-w-3xl mb-10">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight style-font">
             Full Sustainable <br /> Cargo Solution

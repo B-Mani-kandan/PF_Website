@@ -1,10 +1,11 @@
 import ExportImg from "../../assets/HomeImages/ExportForkLift.png";
 import ImportImg from "../../assets/HomeImages/Import.png";
+import { Link } from "react-router-dom";
 
 export default function HomeContact() {
   return (
     <section className="px-4 ">
-      <div className="relative  max-w-6xl mx-auto bg-[#e8e8e8] shadow-xs border border-gray-300 rounded-[36px] overflow-hidden">
+      <div className="relative  max-w-6xl mx-auto bg-[#e1e2f6] shadow-xs border border-gray-300 rounded-[36px] overflow-hidden">
         <img
           src={ExportImg}
           alt="Export"
@@ -22,9 +23,12 @@ export default function HomeContact() {
           </h2>
 
           <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="border border-red-600 text-red-600 px-6 py-3 rounded-full hover:bg-red-600 hover:text-white transition">
+            <Link
+              to="/Contact-Us"
+              className="border border-red-600 text-red-600 px-6 py-3 rounded-full hover:bg-red-600 hover:text-white transition"
+            >
               Contact Us
-            </button>
+            </Link>
           </div>
         </div>
       </div>

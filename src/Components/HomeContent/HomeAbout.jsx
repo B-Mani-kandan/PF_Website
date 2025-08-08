@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HomeAbout = () => {
   return (
     <section className="max-w-7xl mt-20 mx-auto px-6 py-16 md:px-20 grid md:grid-cols-2 gap-12">
@@ -14,9 +16,12 @@ const HomeAbout = () => {
           Reliable, efficient cargo logistics services tailored to meet your
           needs, ensuring timely delivery and customer satisfaction.
         </p>
-        <button className="mt-4 px-6 py-2 border border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white transition rounded">
+        <Link
+          to="/About-Us"
+          className="mt-4 px-6 py-2 border border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition rounded"
+        >
           Learn More
-        </button>
+        </Link>
       </div>
       <div className="flex flex-col justify-between h-full space-y-10">
         <p className="text-gray-500 text-xl leading-relaxed font-semibold">

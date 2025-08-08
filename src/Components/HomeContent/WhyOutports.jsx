@@ -18,9 +18,6 @@ const WhyOutports = () => {
               software for tracking, processing, and communications, along with
               our knowledgeable staff's decades of experience!
             </p>
-            <button className="mt-4 px-6 py-2 border border-[#253c6a] text-[#253c6a] hover:[background-color:#253c6a] hover:text-white transition rounded">
-              Get a Free Quote
-            </button>
           </div>
           <div className="space-y-10">
             {[

@@ -47,7 +47,7 @@ const FtwzFAQ = () => {
   };
 
   return (
-    <section className="bg-white px-6 py-16 md:px-20 flex flex-col lg:flex-row gap-10">
+    <section className="bg-white px-6 py-16 md:px-20 flex flex-col lg:flex-row gap-10 mb-20">
       <div className="lg:w-1/2">
         <p className="text-sm  text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-4 font-medium">
           FTWZ FAQ

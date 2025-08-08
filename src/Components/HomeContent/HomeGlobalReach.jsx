@@ -11,9 +11,6 @@ const HomeGlobalReach = () => {
           Reach customers across the world with faster and cheaper deliveries
           from fulfillment centers across the world.
         </p>
-        <button className="flex mb-3 items-center gap-2 bg-white text-black font-semibold px-5 py-2 rounded-md hover:bg-gray-200 transition">
-          Learn More →
-        </button>
       </div>
     </div>
   );
