@@ -47,28 +47,31 @@ const FtwzFAQ = () => {
   };
 
   return (
-    <section className="bg-white px-6 py-16 md:px-20 flex flex-col lg:flex-row gap-10 mb-20">
+    <section className="bg-white px-4 sm:px-6 md:px-10 lg:px-20 py-10 sm:py-14 md:py-16 flex flex-col lg:flex-row gap-8 sm:gap-10 mb-10 sm:mb-16 md:mb-20">
+      {/* Left Section */}
       <div className="lg:w-1/2">
-        <p className="text-sm  text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-4 font-medium">
+        <p className="text-xs sm:text-sm text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-2 sm:pl-3 mb-3 sm:mb-4 font-medium">
           FTWZ FAQ
         </p>
-        <h2 className="text-5xl font-bold mb-4 leading-tight">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4 leading-snug sm:leading-tight">
           You’ve Got
           <br />
           Questions, We’ve
           <br />
           Got Answers
         </h2>
-        <p className="text-gray-600 mb-6">
+        <p className="text-gray-600 text-sm sm:text-base mb-4 sm:mb-6">
           Explore clear answers to common queries and understand how Free Trade
           Warehousing Zones can benefit your business.
         </p>
       </div>
-      <div className="lg:w-1/2  space-y-6">
+
+      {/* Right Section */}
+      <div className="lg:w-1/2 space-y-4 sm:space-y-6">
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className={` transition-all duration-300 ${
+            className={`transition-all duration-300  overflow-hidden ${
               openIndex === index
                 ? "border-t border-red-500 bg-[#f2f2f2]"
                 : "border-t border-gray-200"
@@ -76,17 +79,21 @@ const FtwzFAQ = () => {
           >
             <button
               onClick={() => toggleAccordion(index)}
-              className="w-full text-left p-6 flex justify-between items-center"
+              className="w-full text-left p-4 sm:p-6 flex justify-between items-center"
             >
-              <span className="font-medium text-gray-800">{faq.question}</span>
+              <span className="font-medium text-gray-800 text-sm sm:text-base">
+                {faq.question}
+              </span>
               {openIndex === index ? (
-                <Minus className="font-normal " />
+                <Minus className="w-4 h-4 sm:w-5 sm:h-5" />
               ) : (
-                <Plus className="font-normal" />
+                <Plus className="w-4 h-4 sm:w-5 sm:h-5" />
               )}
             </button>
             {openIndex === index && (
-              <div className="px-6 pb-4 text-gray-600">{faq.answer}</div>
+              <div className="px-4 sm:px-6 pb-4 text-gray-600 text-sm sm:text-base">
+                {faq.answer}
+              </div>
             )}
           </div>
         ))}

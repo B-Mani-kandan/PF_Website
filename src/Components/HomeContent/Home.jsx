@@ -1,17 +1,16 @@
-import Container from "../../assets/HomeImages/Container.png";
+import Container from "../../assets/HomeImages/Container.webp";
 import "../HomeContent/Home.css";
 import Features from "./Features";
 import HomeService from "./HomeService";
 import WhyOutports from "./WhyOutports";
 import HomeSolution from "./HomeSolution";
 import HomeWarhouse from "./HomeWarhouse";
-import moreContainerSketch from "../../assets/HomeImages/moreContainerSketch.png";
-import Aeroplane from "../../assets/HomeImages/AeroplaneSketch.png";
-import Ship from "../../assets/HomeImages/ContShipSketch.png";
-import HangCont from "../../assets/HomeImages/HangingContSketch.png";
+import moreContainerSketch from "../../assets/HomeImages/moreContainerSketch.webp";
+import Aeroplane from "../../assets/HomeImages/AeroplaneSketch.webp";
+import Ship from "../../assets/HomeImages/ContShipSketch.webp";
+import HangCont from "../../assets/HomeImages/HangingContSketch.webp";
 import HomeAbout from "./HomeAbout";
 import HomeGlobalReach from "./HomeGlobalReach";
-import HomeContact from "./HomeContact";
 
 const Home = () => {
   return (
@@ -35,14 +34,14 @@ const Home = () => {
           <img src={Container} alt="Container" className="container-image" />
         </section>
       </div>
-      <div className="relative">
+      <div className="relative hide-on-mobile">
         <img
           src={Aeroplane}
           alt="Container Sketch"
           className="absolute bottom-35 left-0 w-[250px]  z-10 pointer-events-none"
         />
       </div>
-      <div className="relative">
+      <div className="relative hide-on-mobile">
         <img
           src={moreContainerSketch}
           alt="Container Sketch"
@@ -51,7 +50,7 @@ const Home = () => {
       </div>
       <HomeAbout />
       <WhyOutports />
-      <div className="relative">
+      <div className="relative hide-on-mobile">
         <img
           src={Ship}
           alt="Container Sketch"
@@ -59,7 +58,7 @@ const Home = () => {
         />
       </div>
       <HomeService />
-      <div className="relative">
+      <div className="relative hide-on-mobile">
         <img
           src={HangCont}
           alt="Container Sketch"
@@ -67,7 +66,9 @@ const Home = () => {
         />
       </div>
       <Features />
-      <HomeGlobalReach />
+      <div className="hide-on-mobile">
+        <HomeGlobalReach />
+      </div>
       <HomeSolution />
       <HomeWarhouse />
     </>

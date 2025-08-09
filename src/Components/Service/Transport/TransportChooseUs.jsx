@@ -1,5 +1,5 @@
-import teamImg from "../../../assets/Service/Transportation/UnParrallel.png";
-import deliveryImg from "../../../assets/Service/Transportation/Delivery.png";
+import teamImg from "../../../assets/Service/Transportation/UnParrallel.webp";
+import deliveryImg from "../../../assets/Service/Transportation/Delivery.webp";
 import { FaCheckCircle } from "react-icons/fa";
 
 const TransportChooseUs = () => {

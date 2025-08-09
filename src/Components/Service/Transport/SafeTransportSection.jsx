@@ -1,4 +1,4 @@
-import TruckImage from "../../../assets/Service/Transportation/TruckImage.png";
+import TruckImage from "../../../assets/Service/Transportation/TruckImage.webp";
 import {
   FaShieldAlt,
   FaCheckCircle,
@@ -35,7 +35,7 @@ const features = [
 
 const SafeTransportSection = () => {
   return (
-    <div className="bg-white py-20 px-6 md:px-16 mt-17">
+    <div className="bg-white py-20 px-6 md:px-16 md:mt-17 Safe-trans">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold style-font ">

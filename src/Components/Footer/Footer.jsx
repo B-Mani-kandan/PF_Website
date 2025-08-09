@@ -1,16 +1,16 @@
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
-import ContOpen from "../../assets/HomeImages/ContBoxOpen.png";
+import ContOpen from "../../assets/HomeImages/ContBoxOpen.webp";
 import "../Footer/Footer.css";
 
 const Footer = () => {
   return (
     <>
-      <div className="relative ">
+      <div className="relative hide-on-mobile">
         <img
           src={ContOpen}
           alt="Container Sketch"
-          className="absolute -bottom-40 left-0 w-[400px] pointer-events-none"
+          className="absolute -bottom-40 left-0 w-28 sm:w-40 md:w-56 lg:w-[300px] pointer-events-none"
         />
       </div>
       <footer className="footer ">

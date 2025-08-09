@@ -1,14 +1,15 @@
-import TruckImage from "../../../assets/Service/Transportation/TruckImage.png";
-import SmallTruck from "../../../assets/Service/Transportation/SmallTruck.jpg";
+import TruckImage from "../../../assets/Service/Transportation/TruckImage.webp";
+import SmallTruck from "../../../assets/Service/Transportation/SmallTruck.webp";
+import { Link } from "react-scroll";
 
 const TransportHome = () => {
   return (
-    <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 py-20 px-6 md:px-16 mt-12">
-      <div className="flex-1">
+    <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10 py-20 px-6 md:px-16 mt-12">
+      <div className="flex-1 text-left">
         <p className="text-sm text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-4 font-medium">
           Your Delivery Partner
         </p>
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4 ">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
           Around the <br />
           World
           <span className="inline-block mx-2 align-middle">
@@ -28,12 +29,19 @@ const TransportHome = () => {
           services, our modern fleet and experienced team.
         </p>
         <div className="flex gap-4 flex-wrap">
-          <button className="px-6 py-3 bg-orange-500 text-white rounded hover:bg-orange-600 transition">
+          <Link
+            to="Safe-trans"
+            smooth={true}
+            offset={-100}
+            duration={2000}
+            href="#Discover"
+            className="border border-red-600 text-red-600 px-5 py-2 rounded hover:bg-red-600 hover:text-white transition"
+          >
             Discover More
-          </button>
+          </Link>
         </div>
       </div>
-      <div className="flex-1 relative w-full flex justify-center items-center">
+      <div className="flex-1 relative w-full flex justify-center items-center hide-on-mobile">
         <div className="absolute w-[450px] h-[450px] rounded-full bg-gradient-to-tr from-orange-2500 to-orange-400 opacity-80 z-0"></div>
         <img
           src={TruckImage}

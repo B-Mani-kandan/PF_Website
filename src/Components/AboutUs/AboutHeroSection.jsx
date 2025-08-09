@@ -2,7 +2,7 @@ import HeroImage from "../../assets/About/HeroImage.webp";
 import { Link } from "react-scroll";
 const AboutHeroSection = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center bg-[#f5f5f5] min-h-screen mb-40">
+    <section className="flex flex-col md:flex-row items-center bg-[#f5f5f5] min-h-screen md:mb-30">
       <div className="w-full md:w-1/2 px-8 md:px-16 py-20">
         <p className="text-sm text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-4 font-medium">
           ABOUT US

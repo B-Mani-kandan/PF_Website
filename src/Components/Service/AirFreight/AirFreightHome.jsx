@@ -1,5 +1,5 @@
-import Air1 from "../../../assets/Service/Transportation/Air3.jpg";
-import Air2 from "../../../assets/Service/Transportation/Air2.jpg";
+import Air1 from "../../../assets/Service/Transportation/Air3.webp";
+import Air2 from "../../../assets/Service/Transportation/Air2.webp";
 const AirFreightHome = () => {
   return (
     <div className="talented-people">

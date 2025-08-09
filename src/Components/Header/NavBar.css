@@ -47,7 +47,7 @@ a {
 
 .header {
   position: fixed;
-  top: 0;
+  top: -1px;
   left: 0;
   width: 100%;
   background-color: var(--body-color);
@@ -75,7 +75,7 @@ a {
 }
 
 .nav__logo img {
-  width: 140px;
+  width: 50px;
 }
 
 .nav__logo i {
@@ -317,11 +317,14 @@ a {
 
 @media only screen and (max-width: 768px) {
   .nav__logo img {
-    width: 80px;
+    width: 40px;
   }
   .last-li {
     margin-top: 5%;
     position: relative;
     left: 5%;
+  }
+  .Pfname {
+    font-size: 15px;
   }
 }

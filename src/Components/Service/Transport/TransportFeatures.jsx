@@ -1,37 +1,5 @@
-import containerImg from "../../../assets/Service/Transportation/TruckImage.png";
+import containerImg from "../../../assets/Service/Transportation/TruckImage.webp";
 import { useState } from "react";
-// const features = [
-//   {
-//     id: 1,
-//     title: "Real-Time Vehicle Tracking",
-//     description:
-//       "Real-Time Vehicle Tracking uses GPS and cellular networks to monitor vehicle locations and movements instantly. It provides live updates on speed, routes, and stops. This helps improve fleet efficiency, safety, and on-time deliveries.",
-//   },
-//   {
-//     id: 2,
-//     title: "Route Optimization",
-//     description:
-//       "We specialize in reliable, efficient, and cost-effective transportation solutions tailored to meet the unique needs of our clients. Whether it's freight logistics, cargo transport, or passenger services, our modern fleet and experienced team ensure safe and timely deliveries.",
-//   },
-//   {
-//     id: 3,
-//     title: "Transparent Pricing",
-//     description:
-//       "Transparent Pricing provides clear and upfront cost details without any hidden charges. Customers know exactly what they’re paying for. It builds trust and ensures honest transactions.",
-//   },
-//   {
-//     id: 4,
-//     title: "Door-to-Door Pickup & Delivery",
-//     description:
-//       "Door-to-Door Pickup & Delivery** offers convenient transportation from the sender’s location directly to the recipient’s address. It eliminates the need for drop-off or pickup at terminals. This service ensures a hassle-free and time-saving shipping experience.",
-//   },
-//   {
-//     id: 5,
-//     title: "Cargo Safety & Security",
-//     description:
-//       "Cargo Safety & Security ensures that goods are protected throughout the entire transportation process. From advanced tracking systems to secure packaging and handling, every measure is taken to prevent loss, damage, or theft. This builds customer confidence and ensures reliable, risk-free delivery.",
-//   },
-// ];
 
 const features = [
   {

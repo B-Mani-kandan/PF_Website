@@ -1,4 +1,4 @@
-import collageImage from "../../../assets/Service/Transportation/ShipSplitImage.png"; // adjust path as needed
+import collageImage from "../../../assets/Service/Transportation/ShipSplitImage.webp"; // adjust path as needed
 
 const content = [
   {

@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Header/NavBar.css";
 import "remixicon/fonts/remixicon.css";
-// import Logo from "../../assets/Logo.png";
-// import IATA from "../../assets/IATA.png";
+import PFLLogo from "../../assets/HomeImages/PFLLogo.webp";
 
 import { Link } from "react-router-dom";
 
@@ -28,8 +27,8 @@ const NavBar = () => {
       <nav className="nav containers">
         <div className="nav__data">
           <Link to="/" className="nav__logo" onClick={closeMenu}>
-            {/* <img src={Logo} alt="" />
-            <img src={IATA} style={{ width: "80px" }} alt="" /> */}
+            <img src={PFLLogo} alt="" />
+            {/* <img src={IATA} style={{ width: "80px" }} alt="" /> */}
             <p className="Pfname">Professional Freight Logistics</p>
           </Link>
           <div

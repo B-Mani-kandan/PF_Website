@@ -1,4 +1,4 @@
-import globeImage from "../../assets/HomeImages/GlobeImg.png";
+import globeImage from "../../assets/HomeImages/GlobeImg.webp";
 const HomeGlobalReach = () => {
   return (
     <div className="relative mt-6 mb-6 w-full mx-auto">

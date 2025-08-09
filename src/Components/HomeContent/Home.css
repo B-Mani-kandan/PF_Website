@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
-.home-container {
+/*.home-container {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
@@ -42,7 +42,7 @@
 
 .container-image {
   width: 700px;
-  /* z-index: 999; */
+   z-index: 999; 
 }
 
 .style-font {
@@ -64,4 +64,131 @@
 
 .group:hover .style-font {
   color: white !important;
+} */
+
+.home-container {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 4rem 0;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.hero-text-left {
+  max-width: 40rem;
+  margin-top: 3.5rem;
+}
+
+.hero-heading {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1b222d;
+}
+
+.hero-text-right {
+  position: absolute;
+  top: 55%;
+  right: 180px;
+  font-size: 15px;
+  color: #374151;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  margin-top: -18%;
+}
+
+.container-image {
+  width: 700px;
+  max-width: 100%;
+  height: auto;
+}
+
+.style-font {
+  font-family: "Lora", serif;
+  color: hsl(220, 48%, 28%);
+}
+
+.style-fonts {
+  font-family: "Lora", serif;
+  color: hsl(220, 48%, 28%);
+}
+
+.font-style {
+  font-family: "Lora", serif;
+}
+
+.style-fonts:hover {
+  color: white !important;
+}
+
+.group:hover .style-font {
+  color: white !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .hero-text-left {
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+
+  .hero-heading {
+    font-size: 1.8rem;
+  }
+
+  .hero-text-right {
+    position: static;
+    margin-top: 1rem;
+    font-size: 14px;
+  }
+
+  .image-section {
+    margin-top: 2rem;
+  }
+
+  .container-image {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .relative img {
+    position: static !important;
+    width: 150px !important;
+    margin: 1rem auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-heading {
+    font-size: 1.5rem;
+  }
+
+  .hero-text-right {
+    font-size: 13px;
+  }
+
+  .container-image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
 }

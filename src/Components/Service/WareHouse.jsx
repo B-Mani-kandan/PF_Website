@@ -1,10 +1,10 @@
-import WareHouseImg from "../../assets/Service/WareHouse/WareHouseImg.png";
-import WareHouseStore from "../../assets/Service/WareHouse/WareHouseBG.png";
-import WareHouseLoading from "../../assets/Service/WareHouse/WareVechicleLoading.png";
-import CargoImage from "../../assets/Service/WareHouse/WareHouseVechicle.png";
-import LoadingTruck from "../../assets/Service/WareHouse/TruckPFL.png";
-import WareHouseCard1 from "../../assets/Service/WareHouse/WareHouseCard1.jpg";
-import WareHousecard3 from "../../assets/Service/WareHouse/WareHouseCard3.jpg";
+import WareHouseImg from "../../assets/Service/WareHouse/WareHouseImg.webp";
+import WareHouseStore from "../../assets/Service/WareHouse/WareHouseBG.webp";
+import WareHouseLoading from "../../assets/Service/WareHouse/WareVechicleLoading.webp";
+import CargoImage from "../../assets/Service/WareHouse/WareHouseVechicle.webp";
+import LoadingTruck from "../../assets/Service/WareHouse/TruckPFL.webp";
+import WareHouseCard1 from "../../assets/Service/WareHouse/WareHouseCard1.webp";
+import WareHousecard3 from "../../assets/Service/WareHouse/WareHouseCard3.webp";
 import { Link } from "react-scroll";
 const WareHouse = () => {
   return (
@@ -214,7 +214,7 @@ const WareHouse = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-screen flex flex-col items-center justify-start px-4 py-10 mb-20">
+      <div className=" flex flex-col items-center justify-start px-4 py-10 mb-10 md:mb-20">
         <div className="text-center max-w-3xl mb-10">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight style-font">
             Full Sustainable <br /> Cargo Solution

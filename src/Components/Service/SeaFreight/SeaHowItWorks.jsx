@@ -1,7 +1,7 @@
-import ShipImage1 from "../../../assets/Service/Transportation/Ship1.png";
-import ShipImage2 from "../../../assets/Service/Transportation/Ship2.png";
-import ShipImage3 from "../../../assets/Service/Transportation/Ship3.png";
-import ShipImage4 from "../../../assets/Service/Transportation/Ship4.png";
+import ShipImage1 from "../../../assets/Service/Transportation/Ship1.webp";
+import ShipImage2 from "../../../assets/Service/Transportation/Ship2.webp";
+import ShipImage3 from "../../../assets/Service/Transportation/Ship3.webp";
+import ShipImage4 from "../../../assets/Service/Transportation/Ship4.webp";
 const SeaHowItWorks = () => {
   const data = [
     {

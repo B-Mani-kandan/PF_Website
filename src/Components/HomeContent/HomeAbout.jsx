@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
   return (
-    <section className="max-w-7xl mt-20 mx-auto px-6 py-16 md:px-20 grid md:grid-cols-2 gap-12">
+    <section className="max-w-7xl mx-auto px-6 py-16 md:px-20 grid md:grid-cols-2 gap-12 mt-0 md:mt-20">
       <div className="space-y-6">
         <p className="text-sm text-gray-600 uppercase tracking-widest border-l-4 border-yellow-400 pl-3 mb-7 font-medium">
           ABOUT US
@@ -36,15 +36,21 @@ const HomeAbout = () => {
         </p>
         <div className="grid grid-cols-2 md:grid-cols-2 gap-10">
           <div>
-            <h3 className="text-6xl font-bold style-font">1000+</h3>
+            <h3 className="text-4xl sm:text-5xl md:text-6xl font-bold style-font">
+              1000+
+            </h3>
             <p className="text-gray-500">Customers worldwide</p>
           </div>
           <div>
-            <h3 className="text-6xl font-bold style-font">100%</h3>
+            <h3 className="text-4xl sm:text-5xl md:text-6xl font-bold style-font">
+              100%
+            </h3>
             <p className="text-gray-500">Happy Customers</p>
           </div>
           <div>
-            <h3 className="text-6xl font-bold style-font">24+</h3>
+            <h3 className="text-4xl sm:text-5xl md:text-6xl font-bold style-font">
+              24+
+            </h3>
             <p className="text-gray-500">Years experience</p>
           </div>
         </div>

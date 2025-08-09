@@ -1,5 +1,5 @@
-import ExportImg from "../../assets/HomeImages/ExportForkLift.png";
-import ImportImg from "../../assets/HomeImages/Import.png";
+import ExportImg from "../../assets/HomeImages/ExportForkLift.webp";
+import ImportImg from "../../assets/HomeImages/Import.webp";
 import { Link } from "react-router-dom";
 
 export default function HomeContact() {
@@ -9,12 +9,12 @@ export default function HomeContact() {
         <img
           src={ExportImg}
           alt="Export"
-          className="absolute bottom-0 left-5 w-20 sm:w-28 md:w-36 lg:w-44 object-contain pointer-events-none z-0"
+          className="absolute bottom-0 left-5 w-20 sm:w-28 md:w-36 lg:w-44 object-contain pointer-events-none z-0 hide-on-mobile"
         />
         <img
           src={ImportImg}
           alt="Import"
-          className="absolute top-0 right-5 w-20 sm:w-28 md:w-36 lg:w-44 object-contain pointer-events-none z-0"
+          className="absolute top-0 right-5 w-20 sm:w-28 md:w-36 lg:w-44 object-contain pointer-events-none z-0 hide-on-mobile"
         />
         <div className="relative z-10 mx-auto max-w-xl text-center py-10 sm:py-14 md:py-20 px-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight">

@@ -1,8 +1,8 @@
-import Air from "../../../assets/Service/Transportation/Air4.jpg";
+import Air from "../../../assets/Service/Transportation/Air4.webp";
 import { Plane } from "lucide-react";
-import ServiceAir from "../../../assets/Service/Transportation/ServiceAir.jpg";
-import ServiceAir2 from "../../../assets/Service/Transportation/ServiceAir2.jpg";
-import ServiceAir3 from "../../../assets/Service/Transportation/ServiceAir3.jpg";
+import ServiceAir from "../../../assets/Service/Transportation/ServiceAir.webp";
+import ServiceAir2 from "../../../assets/Service/Transportation/ServiceAir2.webp";
+import ServiceAir3 from "../../../assets/Service/Transportation/ServiceAir3.webp";
 const AirServiceGrid = () => {
   return (
     <>
