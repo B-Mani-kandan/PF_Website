@@ -38,14 +38,14 @@ const Home = () => {
         <img
           src={Aeroplane}
           alt="Container Sketch"
-          className="absolute bottom-35 left-0 w-[250px]  z-10 pointer-events-none"
+          className="absolute bottom-35 left-0 w-62.5 z-10 pointer-events-none"
         />
       </div>
       <div className="relative hide-on-mobile">
         <img
           src={moreContainerSketch}
           alt="Container Sketch"
-          className="absolute bottom-0 right-0 w-[250px]  z-10 pointer-events-none"
+          className="absolute bottom-0 right-0 w-62.5 z-10 pointer-events-none"
         />
       </div>
       <HomeAbout />
@@ -54,7 +54,7 @@ const Home = () => {
         <img
           src={Ship}
           alt="Container Sketch"
-          className="absolute -bottom-20 right-0 w-[250px] pointer-events-none"
+          className="absolute -bottom-20 right-0 w-62.5 pointer-events-none"
         />
       </div>
       <HomeService />
@@ -62,7 +62,7 @@ const Home = () => {
         <img
           src={HangCont}
           alt="Container Sketch"
-          className="absolute bottom-0 left-0 w-[250px] pointer-events-none"
+          className="absolute bottom-0 left-0 w-62.5 pointer-events-none"
         />
       </div>
       <Features />
