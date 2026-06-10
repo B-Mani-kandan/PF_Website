@@ -1,4 +1,4 @@
-import ContainerSketch from "../../assets/HomeImages/SketchContainer.webp";
+// import ContainerSketch from "../../assets/HomeImages/SketchContainer.webp";
 
 const Features = () => {
   return (
@@ -61,11 +61,11 @@ const Features = () => {
             <p className="text-xs sm:text-sm text-gray-500 mb-3">
               2500 Items Delivered
             </p>
-            <img
+            {/* <img
               src={ContainerSketch}
               alt="Container Sketch"
               className="w-full max-w-xs sm:max-w-sm md:max-w-md object-contain mt-4 mx-auto"
-            />
+            /> */}
           </div>
 
           {/* EFFICIENT CARGO */}
