@@ -22,31 +22,25 @@ import globeImage from "../../assets/HomeImages/GlobeImg.webp";
 
 const HomeGlobalReach = () => {
   return (
-    <div
-      className="relative mt-6 mb-6 w-full mx-auto"
-      style={{ aspectRatio: "16/9" }}
-    >
-      <img
-        src={globeImage}
-        alt="Globe"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+    <div className="relative mt-6 mb-6 w-full mx-auto">
+      {/* Let the image define the container height naturally */}
+      <img src={globeImage} alt="Globe" className="w-full object-contain" />
 
-      {/* Title - top-left, percentage-based so it scales with container */}
+      {/* Title */}
       <h2
         className="absolute font-style text-white font-semibold z-20
-                     top-[6%] left-[3%]
-                     text-xl sm:text-2xl md:text-3xl lg:text-4xl"
+                   top-[6%] left-[3%]
+                   text-xl sm:text-2xl md:text-3xl lg:text-4xl"
       >
         Global Reach
       </h2>
 
-      {/* Bottom-right text */}
+      {/* Bottom-right caption */}
       <p
-        className="absolute z-20 leading-relaxed text-gray-200
-                    bottom-[4%] right-[2%]
-                    text-[clamp(0.55rem,1.2vw,0.875rem)]
-                    max-w-[30%] text-right"
+        className="absolute z-20 leading-relaxed text-gray-200 text-right
+                   bottom-[4%] right-[2%]
+                   text-[clamp(0.55rem,1.2vw,0.875rem)]
+                   max-w-[30%]"
       >
         Reach customers across the world with faster and cheaper deliveries from
         fulfillment centers across the world.

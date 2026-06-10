@@ -14,7 +14,6 @@ const ContactUs = () => {
     notifySending();
 
     const formData = new FormData(event.target);
-    formData.append("access_Key", import.meta.env.CONTACT_ACCESS_KEY);
     //formData.append("access_key", "19e03738-0d08-4a43-abe7-76ce9c02d493");
 
     try {

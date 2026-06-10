@@ -13,6 +13,8 @@ import HomeAbout from "./HomeAbout";
 import HomeGlobalReach from "./HomeGlobalReach";
 
 const Home = () => {
+      console.log(import.meta.env.VITE_CONTACT_ACCESS_KEY);
+
   return (
     <>
       <div className="home-container">
