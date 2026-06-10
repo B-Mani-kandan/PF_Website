@@ -8,10 +8,8 @@ import tailwindcss from "@tailwindcss/vite";
 // });
 
 export default defineConfig({
-  plugins: [
-    react({
-      fastRefresh: false,
-    }),
-    tailwindcss(),
-  ],
+  plugins: [react(), tailwindcss()],
+  server: {
+    hmr: false,
+  },
 });
